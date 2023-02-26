@@ -6,7 +6,7 @@ from datetime import datetime
 class Task:
     id: int
     title: str
-    ramk: int
+    rank: int
     created: datetime
     updated: datetime
     description: str | None = None
@@ -26,6 +26,6 @@ tasks = [
         title="One Took",
         rank=1,
         created=datetime.now(),
-        upadted=datetime.now()
+        updated=datetime.now()
     )
 ]
