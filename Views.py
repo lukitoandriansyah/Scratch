@@ -9,6 +9,9 @@ def not_found(request_data: dict):
     return Response(status_code=404, data="Not Found")
 
 
+def hello_world(request_data: dict):
+    return Response("Hello World!")
+
 def tasks_list(request_data: dict):
     return Response(
         content_type="application/json",
