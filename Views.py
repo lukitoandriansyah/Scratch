@@ -12,6 +12,7 @@ def not_found(request_data: dict):
 def hello_world(request_data: dict):
     return Response("Hello World!")
 
+
 def tasks_list(request_data: dict):
     return Response(
         content_type="application/json",
